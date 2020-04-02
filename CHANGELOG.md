@@ -5,6 +5,9 @@ cookbook. Please see HISTORY.md for changes from older versions of this project.
 
 ## [Unreleased]
 
+## [7.0.0]
+- Install Sensu packages from our own S3 buckets as the repos are going away
+
 ## [6.0.0] - 2019-12-17
 ### Breaking Changes
 - changed the `apt`, `yum`, and `msi` repo paths to use the [EOL urls](http://eol-repositories.sensuapp.org/) which was announced [here](https://blog.sensu.io/announcing-the-sensu-archives). This is only breaking if you have specific whitelisted URLs for the old repos in an `http(s)` proxy. See [#632](https://github.com/sensu/sensu-chef/pull/632) for more details. (@duncaan)
