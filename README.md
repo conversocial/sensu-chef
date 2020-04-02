@@ -1,3 +1,11 @@
+## Warning
+This is our fork of the Sensu cookbook with the minimum amount of changes needed
+to allow us to keep installing Sensu after the EOL Repos are turned off and until
+we can get time to migrate away from it.
+
+The cookbook is only tested as working for Sensu 1.4.2-4 on AWS Linux 2 and
+Ubuntu 18.04.
+
 ![sensu](https://raw.github.com/sensu/sensu/master/sensu-logo.png)
 
 [![Build Status](https://img.shields.io/travis/sensu/sensu-chef.svg)](https://travis-ci.org/sensu/sensu-chef)

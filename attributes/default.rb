@@ -32,6 +32,9 @@ default["sensu"]["directory_mode"] = "0750"
 default["sensu"]["log_directory_mode"] = "0750"
 default["sensu"]["client_deregister_on_stop"] = false
 default["sensu"]["client_deregister_handler"] = nil
+# URL to the installation package (e.g. in S3)
+default['sensu']['aws_linux_2_package_url'] = ''
+default['sensu']['ubuntu_package_url'] = ''
 
 default["sensu"]["apt_repo_url"] = "http://eol-repositories.sensuapp.org/apt"
 default["sensu"]["yum_repo_url"] = "http://eol-repositories.sensuapp.org"
